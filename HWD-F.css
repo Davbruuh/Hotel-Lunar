@@ -1,0 +1,120 @@
+.navbar{
+    display: flex;
+    
+}
+.main-name{
+    color: purple;
+}
+.nav-others1{
+    margin-left: 600px;
+    /* justify-content: space-between;
+    margin-top: 21px;
+    display: flex;
+    align-items: ; */
+    margin-top: 20px;
+}
+.nav-others2{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.nav-others3{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: purple;
+}
+.nav-others4{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.nav-others5{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.nav-others6{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 510PX;
+    background-image: url("../MImages/Rectangle\ 9.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    color: #FFFFFF;
+    position: absolute;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.section1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    gap: 10rem;
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+.section2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    gap: 10rem;
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+.section3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    gap: 10rem;
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+#section-image{
+    width: 25rem;
+}
+h3{
+    text-align: center;
+}
+.d-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    gap: 10rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+.wao{
+    color: purple;
+}
+#f-s{
+    margin-top: 3rem;
+}
+.footer{
+    background-color: #3E3C3C;
+    color: white;
+    width: 100%;
+}
+.footer2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10rem;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: 3rem;
+}
+.hl{
+    margin-left: 2rem;
+}
